@@ -15,7 +15,7 @@ function Item({ name, category }) {
     <li className={cartStatus}>
       <span>{name}</span>
       <span className="category">{category}</span>
-      <button className="add" onClick={handleCart}>{cartStatus.length > 3 ? "Remove from cart" : "Add to cart" }</button>
+      <button className="add" onClick={handleCart}>{cartStatus.length > 3 ? "Remove from Cart" : "Add to Cart" }</button>
     </li>
   );
 }
